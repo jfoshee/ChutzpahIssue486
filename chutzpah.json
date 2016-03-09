@@ -1,0 +1,23 @@
+{
+  "Framework": "jasmine",
+  "CodeCoverageIncludes": [ "*.ts" ],
+  "CodeCoverageExcludes": [ "*Test.ts" ],
+  "Compile": {
+    "Mode": "External",
+    "Extensions": [ ".ts" ],
+    "ExtensionsWithNoOutput": [ ".d.ts" ]
+  },
+  "Tests": [
+    {
+      "Path": "ExampleTest.ts"
+    }
+  ],
+  "References": [
+    {
+      "Path": "angular.js"
+    },
+    {
+      "Path": "angular-mocks.js"
+    }
+  ]
+}
